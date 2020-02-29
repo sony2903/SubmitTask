@@ -1,0 +1,12 @@
+SET kukupendek, kuku, murid
+STORE murid = 1
+STORE kukupendek = 'pendek'
+While (murid < 41){
+    GET kuku
+    IF(kuku === kukupendek){
+        PRINT('Murid dipuji')
+    } ELSE {
+	('Murid dihukum')
+	}
+	kuku++
+} 

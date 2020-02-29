@@ -1,0 +1,6 @@
+SET pakaianfoxie
+STORE pakaianfoxie = 1
+FOR(pakaianfoxie = 1; pakaianfoxie < 20; pakaianfoxie++){
+    PRINT('Pakaianmu masih kurang dari 20')
+}
+    PRINT('Pakaianmu sudah 20, saatnya mesin cuci dinyalakan')

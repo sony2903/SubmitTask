@@ -1,0 +1,7 @@
+buatlah sebuah algoritma / pseudocode untuk menghitung resultan gaya pada sebuah mobil yang memiliki massa benda 600 kg dan ketika didorong oleh tiga orang percepatannya adalah 2 m/s2!
+
+SET f,m,a  
+STORE m = 600
+STORE a = 2
+CALCULATE f = m * a 
+PRINT f

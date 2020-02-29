@@ -1,0 +1,19 @@
+SET tahun, mod4, mod100, mod400
+STORE tahun =
+mod4 = tahun % 4
+mod100 = tahun % 100
+mod400 = tahun % 400
+
+PRINT ('Jika tahun habis di bagi 4 dan tidak habis di bagi 100,')
+IF (mod4 == 0 && mod100 != 0){
+    console.log(tahun + ' adalah tahun kabisat')
+} ELSE{
+    PRINT(tahun + ' bukan tahun kabisat')
+} END IF
+
+PRINT('Atau jika menggunakan metode tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400, maka')
+IF(mod4 == 0 && mod100 == 0 && mod400 == 0){
+    PRINT(tahun + ' adalah tahun kabisat')
+} ELSE{
+    PRINT(tahun + ' bukan tahun kabisat')
+} END IF
